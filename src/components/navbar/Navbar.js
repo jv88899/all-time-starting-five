@@ -8,7 +8,11 @@ const Navbar = () => (
                 ATSF
             </div>
         </div>
-        <div className={styles.navMenu}></div>
+        <div className={styles.navMenu}>
+            <div className={styles.navMenuBar}></div>
+            <div className={styles.navMenuBar}></div>
+            <div className={styles.navMenuBar}></div>
+        </div>
     </nav>
 )
 
