@@ -5,7 +5,6 @@ import styles from '../styles/global.css'
 
 const Index = props => (
     <Layout>
-        Testing
     </Layout>
 )
 

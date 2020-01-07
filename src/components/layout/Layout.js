@@ -4,8 +4,8 @@ import styles from './layout.module.css'
 
 const Layout = props => (
     <div className={styles.container}>
+        <Header />
         <div className={styles.content}>
-            <Header />
             {props.children}
         </div>
     </div>
