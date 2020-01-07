@@ -1,11 +1,10 @@
 import React from 'react'
-import Header from '../components/header/Header'
-import '../styles/global.css'
+import Layout from '../components/layout/Layout'
 
-const Index = () => (
-    <div>
-        <Header />
-    </div>
+
+const Index = props => (
+    <Layout>
+    </Layout>
 )
 
 export default Index
